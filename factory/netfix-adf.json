@@ -1,0 +1,9 @@
+{
+	"name": "netfix-adf",
+	"location": "centralindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "570f3371-55de-4465-9ab4-5ec15c121c5a",
+		"tenantId": "211964cb-65ea-4226-836a-8bb58911b98c"
+	}
+}

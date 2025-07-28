@@ -1,0 +1,12 @@
+{
+	"name": "sinkDL",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureBlobFS",
+		"typeProperties": {
+			"url": "https://netflix.dfs.core.windows.net/",
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQDlCNEE1RkNGLTg5MjQtNEUyOS1CNDU3LTM4NjE5RDQ3MTFFRl9iNzYyZWZkOC1kZGFlLTQxYmEtOTUzOS0yNDI5YzlkNTU3ZjciDQp9"
+		}
+	}
+}
