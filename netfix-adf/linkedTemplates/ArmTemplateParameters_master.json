@@ -1,0 +1,24 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "netfix-adf"
+		},
+		"sinkDL_accountKey": {
+			"value": ""
+		},
+		"github_properties_typeProperties_url": {
+			"value": "https://raw.githubusercontent.com/rajendra5811/DE-2/main/"
+		},
+		"sinkDL_properties_typeProperties_url": {
+			"value": "https://netflix.dfs.core.windows.net/"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
