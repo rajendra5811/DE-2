@@ -1,24 +1,17 @@
 {
-	"name": "ds_github",
+	"name": "ds_validation",
 	"properties": {
 		"linkedServiceName": {
-			"referenceName": "github",
+			"referenceName": "sinkDL",
 			"type": "LinkedServiceReference"
-		},
-		"parameters": {
-			"file_name": {
-				"type": "string"
-			}
 		},
 		"annotations": [],
 		"type": "DelimitedText",
 		"typeProperties": {
 			"location": {
-				"type": "HttpServerLocation",
-				"relativeUrl": {
-					"value": "@dataset().file_name",
-					"type": "Expression"
-				}
+				"type": "AzureBlobFSLocation",
+				"fileName": "netflix_titles.csv",
+				"fileSystem": "raw"
 			},
 			"columnDelimiter": ",",
 			"escapeChar": "\\",
